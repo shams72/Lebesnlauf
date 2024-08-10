@@ -1,0 +1,370 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+   
+}
+
+.a4-page {
+    width: 210mm; 
+    height: 297mm; 
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 20mm; 
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid white;
+}
+
+.introduction-header{
+    margin-left: -40px;
+    margin-top: 50px;
+
+}
+
+.content{
+    display: flex;
+    margin-left: -40px;
+    margin-top: 300px;
+    /*border: 1px solid yellow;*/
+    width:750px;
+}
+
+.left-side{
+    /*border-right: 1px solid green;*/
+    
+    
+}
+
+.fachbereich{
+    font-size: 20px;
+}
+
+
+.kontakt-mainBox{
+    
+}
+
+.kontakt-sub-header{
+ 
+    
+}
+
+.I-Kontakt{
+    color: blue;
+    font-size: larg;
+}
+
+.E-Mail{
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: fit-content;  
+}
+
+.Telefonnummer{
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.Addresse{
+    margin-top: 0px;
+   
+}
+
+.kontakt{
+    margin-top:15px;
+    margin-bottom: 0px;   
+}
+
+.details{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+
+.fahigkeiten-mainBox{
+    margin-top:30px; 
+    margin-bottom: 15px; 
+}
+
+.Interesse-mainBox{
+
+}
+
+
+.content{
+    margin-top: 40px;
+}
+
+
+.fahigkeiten-header{
+    margin-bottom: 0px;
+}
+
+.fahigkeiten{
+    margin-top: 15px;
+    margin-left:-38px;
+    margin-right: 10x;
+    font-size: 13.8px;
+    /*border: 1px solid black;*/
+    padding: auto;
+    width:auto;
+    font-style: normal;
+    list-style-type: none;   
+}               
+
+.sprache-mainBox{
+    margin-top:30px;
+
+}
+
+.sprachen-header{
+    margin-bottom: 0px;
+}
+
+.sprachen{
+    margin-top: 15px;
+    margin-left:-22px;
+
+    font-size: 14px;
+}
+
+.left-side{
+    margin-right: 10px;
+    
+   /* border: 1px solid black;*/
+}
+
+
+.right-side{
+    margin-right: 20px;
+    border-left: 3px solid gray;
+    width:100%;
+}
+
+.I-Berufserfahrung{
+    color: blue;
+
+}
+
+.Bildungsweg{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.Berufserfahrung{
+    margin-left: 10px;
+}
+
+
+.aufgaben-first{
+    padding-left: 14px;
+    margin-bottom: 0px;
+}
+
+
+.aufgaben-second{
+    padding-left: 14px;
+    margin-top: 2px;
+    
+}
+
+.beschreibung{
+    list-style-type: none;
+    margin-left: -40px;
+    width: 490px;
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+
+.titel-dauer {
+    display: inline-flex;
+    /*align-items: center;*/
+    /*border: 1px solid #000; Optional: Add a border to visualize the box */
+    padding: 0px; /* Increase padding if desired */
+    font-size: 17px; /* Increase overall font size */
+   
+}
+
+.berufs-titel {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 30px; /* Increase space between the title and the date */
+    
+    /*border: 1px solid black;*/
+}
+
+.dauer-uni {
+    margin: 0;
+    font-size: 14px; /* Increase the font size of the date */
+    /*border: 1px solid black;*/
+    width: 150px;
+   
+}
+
+.pad{
+    padding-left: -7px;
+} 
+
+.Bachelor{
+    padding-left:10px;
+    margin-top: 2px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.uni-dauer{
+    display: flex;
+    flex-direction: row;
+    padding-right:2px;
+}
+
+
+.beschreibung{
+    font-size: 14px;
+}
+
+.I-Bildungsweg{
+    color: blue;
+    font-size: larg;
+
+}
+
+.f-list{
+  /* border: 1px solid black;*/
+}
+
+.oop-padding{
+    padding-left: 8px;
+}
+
+.date-uni{
+    margin-left: 80px;
+    padding: 0;
+    
+    /*border: 1px solid black;*/
+}
+
+.Hochschule{
+    /*border: 1px solid black;*/
+    width:252px;
+    margin-bottom: 0px;
+
+}
+
+.subjects{
+   
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.modul{
+    
+    margin-top: 9px;
+    font-size: 13.8px;
+    margin-bottom: 0px;
+}
+
+.dot{
+    color: #ffffff;
+}
+
+.pad-desc{
+    padding-left: 9px;
+    font-size: 15px;
+}
+
+.beschreibung-paragraph{
+    font-size: 15px;
+}
+
+.beschreibung-list{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.turn-off{
+    list-style-type: none;  
+    padding-left: 0px;
+    font-size: 15px;
+    margin-left: -10px;
+}
+
+.HCI{
+    margin-top:0px;
+    margin-bottom:2px;
+    font-size: 15px;
+    margin-left: -10px;
+    padding-right: 40px;
+}
+
+.pad-HCI{
+padding-left: 8px;
+font-size: 15px;
+}
+
+.space{
+    padding-left: 4px;
+    padding-right: 2px;
+}
+
+.space-1{
+    padding-left: 7px;
+    padding-right: 2px;
+}
+
+.space-2{
+    padding-left: 11px;    
+    padding-right: 2px;
+}
+
+
+.space-3{
+    padding-left: 27px;
+    
+    padding-right: 2px;
+}
+
+.Projekten{
+    margin-top: 0px;
+    margin-left:195px ;
+}
+
+.Project-header{
+    margin-left:10px;
+}
+
+.font{
+    list-style-type: none;  
+    font-size:15px;
+}
+
+.titel-projekt{
+    margin-top: 20px;
+}
+
+.top{
+    margin-top: 40px;
+}
+
+sup {
+    font-size: 0.8em; /* Adjust as needed for superscript size */
+    vertical-align: super; /* Ensures the superscript is correctly aligned */
+}
+
+.link {
+    color: blue; /* Adjust color of the link as needed */
+    text-decoration: none; /* Optional: Underline the link */
+    font-size: 13px;
+    margin-left: 5px;
+}
