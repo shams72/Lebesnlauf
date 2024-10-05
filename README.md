@@ -23,6 +23,8 @@ This is my personal resume created using **HTML** and **CSS**. The project showc
 
 2. Open the `lebenslauf.html` file in your browser to view the resume.
 
+3. To view in PDF format, Click on ```Lebenslauf.pdf```
+   
 ## Customization
 
 To update the resume with your own information:
