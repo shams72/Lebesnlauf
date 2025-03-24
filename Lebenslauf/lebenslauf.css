@@ -188,9 +188,12 @@ body {
 }
 
 .titel-dauer {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     /*align-items: center;*/
-    /*border: 1px solid #000; Optional: Add a border to visualize the box */
+    width: 100%;
     padding: 0px; /* Increase padding if desired */
     font-size: 17px; /* Increase overall font size */
    
@@ -264,7 +267,7 @@ body {
 
 .subjects{
    
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 0px;
 }
 
@@ -304,7 +307,7 @@ body {
     margin-top:0px;
     margin-bottom:2px;
     font-size: 15px;
-    margin-left: -10px;
+    margin-left: 10px;
     padding-right: 40px;
 }
 
@@ -368,3 +371,8 @@ sup {
     font-size: 13px;
     margin-left: 5px;
 }
+
+ul {
+    padding-left: 25px; /* Aligns text properly */
+}
+  
