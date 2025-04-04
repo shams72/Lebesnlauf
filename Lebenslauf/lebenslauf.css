@@ -36,24 +36,8 @@ body {
     width:750px;
 }
 
-.left-side{
-    /*border-right: 1px solid green;*/
-    
-    
-}
-
 .fachbereich{
     font-size: 20px;
-}
-
-
-.kontakt-mainBox{
-    
-}
-
-.kontakt-sub-header{
- 
-    
 }
 
 .I-Kontakt{
@@ -96,9 +80,7 @@ body {
     margin-bottom: 15px; 
 }
 
-.Interesse-mainBox{
 
-}
 
 
 .content{
@@ -243,9 +225,6 @@ body {
 
 }
 
-.f-list{
-  /* border: 1px solid black;*/
-}
 
 .oop-padding{
     padding-left: 8px;
@@ -340,7 +319,7 @@ font-size: 15px;
 
 .Projekten{
     margin-top: 0px;
-    margin-left:195px ;
+    margin-left:205px ;
 }
 
 .Project-header{
@@ -358,6 +337,7 @@ font-size: 15px;
 
 .top{
     margin-top: 40px;
+    height: 98vh;
 }
 
 sup {
