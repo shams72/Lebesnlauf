@@ -16,7 +16,10 @@ body {
     height: 297mm; 
     margin: auto;
     margin-bottom: 200px;
-    padding: 20mm; 
+    padding-top: 11mm; 
+    padding-bottom: 20mm; 
+    padding-left: 20mm; 
+    padding-right: 20mm; 
     box-sizing: border-box;
     background: white;
     border: 1px solid white;
@@ -31,13 +34,14 @@ body {
 .content{
     display: flex;
     margin-left: -40px;
-    margin-top: 300px;
+    margin-top: 250px;
     /*border: 1px solid yellow;*/
     width:750px;
 }
 
 .fachbereich{
-    font-size: 20px;
+    font-size: 23px;
+    margin-bottom: 10px;
 }
 
 .I-Kontakt{
@@ -80,11 +84,14 @@ body {
     margin-bottom: 15px; 
 }
 
+h1 {
+    margin-bottom: 10px;
+}
 
 
 
 .content{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
@@ -114,8 +121,8 @@ body {
 }
 
 .sprachen{
-    margin-top: 15px;
-    margin-left:-22px;
+    margin-top: 14px;
+
 
     font-size: 14px;
 }
@@ -128,7 +135,6 @@ body {
 
 
 .right-side{
-    margin-right: 20px;
     border-left: 3px solid gray;
     width:100%;
 }
@@ -185,9 +191,16 @@ body {
     margin: 0;
     margin-left: 10px;
     margin-right: 30px; /* Increase space between the title and the date */
+    font-size: 15.4px;
     
     /*border: 1px solid black;*/
 }
+
+.desc {
+    font-size: 13.6px;
+
+}
+
 
 .dauer-uni {
     margin: 0;
@@ -285,7 +298,7 @@ body {
 .HCI{
     margin-top:0px;
     margin-bottom:2px;
-    font-size: 15px;
+    font-size: 15.5px;
     margin-left: 10px;
     padding-right: 40px;
 }
@@ -320,6 +333,7 @@ font-size: 15px;
 .Projekten{
     margin-top: 0px;
     margin-left:205px ;
+    padding-left:10px ;
 }
 
 .Project-header{
@@ -354,5 +368,10 @@ sup {
 
 ul {
     padding-left: 25px; /* Aligns text properly */
+    font-size: 15.5px;
 }
   
+.relevat-course {
+    padding-left: 15px;
+    font-size: 15px;
+} 
